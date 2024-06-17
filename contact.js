@@ -12,14 +12,14 @@ form.addEventListener("submit", (event) => {
     companyName: inputs[3].value,
     message: inputs[4].value,
   };
-    sendDta();
+  sendDta();
 });
 function sendDta() {
   emailjs
     .send("service_f5upt5c", "template_i1a1ztn", formData)
     .then((response) => {
       alert(
-        "Your email was send successfully to the Brijendra Tiwari",
+        "Your email has been successfully sent to Brijendra Tiwari. He will respond to you shortly.",
         response
       );
     })
