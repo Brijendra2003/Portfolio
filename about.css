@@ -1,0 +1,103 @@
+* {
+  color: white;
+  font-family: Bree Serif, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  height: 98vh;
+}
+.image {
+  /* border: solid 1px; */
+  min-width: 250px;
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-height: 450px;
+  max-width: 450px;
+  min-height: 100px;
+  min-width: 100px;
+}
+.details {
+  /* border: solid 1px; */
+  min-height: 30em;
+  min-width: 15em;
+  max-width: 700px;
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  color: aqua;
+}
+h1,
+h3 {
+  margin: 2px;
+}
+
+.skills {
+  /* border: solid 1px; */
+  /* height: 25vh; */
+  /* min-width: 50vw; */
+  max-width: 500px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  /* background-color: white; */
+}
+
+.skill {
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: black;
+  margin: 5px;
+  box-shadow: aquamarine 0px 5px 15px;
+  /* width:50rem; */
+}
+.icon {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border-right: solid 1px black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.bcolor {
+  color: black;
+}
+.html {
+  width: 6em;
+}
+.css {
+  width: 4.5em;
+}
+.js {
+  width: 7.5em;
+}
+.java {
+  width: 7em;
+}
+.mySql {
+  width: 16em;
+}
+.bootstrap {
+  width: 7em;
+}
+.github {
+  width: 8em;
+}

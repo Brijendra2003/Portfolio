@@ -1,0 +1,62 @@
+* {
+  color: white;
+  font-family: Bree Serif, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  height: 98vh;
+  /* border: solid 1px; */
+  /* margin: 0%; */
+}
+
+span {
+  color: aquamarine;
+}
+
+.preview {
+  width: 80vh;
+}
+
+.discription {
+  width: 35em;
+}
+
+button {
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: solid 1px;
+  color: black;
+  height: 30px;
+  width: 100px;
+  box-shadow: aquamarine 0px 5px 15px;
+}
+button:hover {
+  box-shadow: antiquewhite 0px 5px 15px;
+  box-shadow: none;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  width: 200px;
+  height: 400px;
+  box-shadow: aquamarine 0px 5px 15px;
+  border-radius: 10px;
+}
+.lecturer,
+.student {
+  width: 200px;
+  text-align: center;
+  margin-top: 15px;
+}
+h4 {
+  color: aquamarine;
+}

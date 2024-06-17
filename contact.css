@@ -1,0 +1,87 @@
+* {
+  color: white;
+  font-family: Bree Serif, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+form {
+  margin: auto;
+  height: 98vh;
+  max-width: 550px;
+  border: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: aquamarine 0px 5px 15px;
+}
+p,
+h2 {
+  width: 100%;
+  text-align: center;
+}
+.input {
+  border: solid 1px;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: aquamarine 0px 5px 15px;
+}
+textarea {
+  background-color: transparent;
+  width: 100%;
+  background-color: aliceblue;
+  color: black;
+}
+.icon {
+  border-right: solid 1px;
+  width: 40px;
+  height: 100%;
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  color: black;
+  background-color: aliceblue;
+  border: none;
+}
+.message {
+  height: 60px;
+  width: 90%;
+}
+.button {
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: black;
+  box-shadow: aquamarine 0px 5px 15px;
+}
+.button:hover,
+.input:hover {
+  box-shadow: antiquewhite 0px 5px 15px;
+  box-shadow: none;
+}
+
+.bcolor {
+  color: black;
+}
+span {
+  color: aquamarine;
+}
+.clear {
+  background-color: rgb(128, 227, 23);
+  border-radius: 5px;
+  color: black;
+  box-shadow: rgb(128, 227, 23) 0px 5px 15px;
+}
