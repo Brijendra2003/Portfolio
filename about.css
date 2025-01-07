@@ -90,7 +90,7 @@ h3 {
   width: 7.5em;
 }
 .java {
-  width: 7em;
+  width: 5em;
 }
 .mySql {
   width: 16em;
@@ -100,4 +100,8 @@ h3 {
 }
 .github {
   width: 8em;
+}
+.react {
+  width: 6.2em;
+
 }
